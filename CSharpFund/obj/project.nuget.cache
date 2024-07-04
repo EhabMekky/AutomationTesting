@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "M4LP7oDZXCWL/j/ILmL4NeleJdGkuRFuUR01nJaDFXM8o+m5+QKwexLRcvF5Nk5+Niyxr6gLcouQUa6+GpL55w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpFund\\CSharpFund.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ehab.khallaf\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ehab.khallaf\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
