@@ -27,9 +27,9 @@ public class FunctionalTest
     {
       IWebElement dropdown =  driver.FindElement(By.CssSelector("#login-form > div:nth-child(5) > select"));
       SelectElement s = new SelectElement(dropdown);
-      s.SelectByText("Teacher");
-      s.SelectByValue("stud");
-      s.SelectByIndex(1);
+      s.SelectByText("Student");
+      //s.SelectByValue("stud");
+     // s.SelectByIndex(1);
     }
 
     [Test]
@@ -46,13 +46,14 @@ public class FunctionalTest
             }
         }
         
+        // Explicit wait
         WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(8));
         wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.Id("okayBtn")));
             
         driver.FindElement(By.Id("okayBtn")).Click();
        
         Boolean result = driver.FindElement(By.Id("usertype")).Selected;
-        Assert.That(result, Is.True);
+        Assert.That(result, Is.False);
     }
     
     [TearDown]

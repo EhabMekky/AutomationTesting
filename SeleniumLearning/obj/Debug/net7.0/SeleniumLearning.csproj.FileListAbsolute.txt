@@ -20,6 +20,7 @@ C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\SeleniumLearning.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\SeleniumLearning.pdb
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\AngleSharp.dll
+C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -106,4 +107,3 @@ C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\obj\Debug\
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\obj\Debug\net7.0\SeleniumLearning.pdb
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\obj\Debug\net7.0\SeleniumLearning.genruntimeconfig.cache
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\obj\Debug\net7.0\ref\SeleniumLearning.dll
-C:\Users\ehab.khallaf\source\repos\AutomationTesting\SeleniumLearning\bin\Debug\net7.0\SeleniumExtras.WaitHelpers.dll

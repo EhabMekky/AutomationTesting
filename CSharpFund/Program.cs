@@ -2,34 +2,38 @@
 
 namespace CSharpFund
 {
-    class Program :  Program4
+    class Program : Program4
     {
         //field -- globally
         string name;
         string fName;
+
         string lName;
+
         // constructor is a method called once run the program
         // default constructor
-        public Program(string name) 
-        { 
+        public Program(string name)
+        {
             this.name = name;
         }
 
         // constructor 
         public Program(string firstName, string lastName)
         {
-            this.fName= firstName;
-            this.lName= lastName;
+            this.fName = firstName;
+            this.lName = lastName;
         }
+
         public void getName()
         {
-            System.Console.WriteLine("My name is" +" " + this.fName + this.lName);
+            System.Console.WriteLine("My name is" + " " + this.fName + this.lName);
         }
 
         public void getData()
         {
             Console.WriteLine("Hello From void Method");
         }
+
         static void Main(string[] args)
         {
             // Name of the class 
@@ -40,12 +44,12 @@ namespace CSharpFund
             // inheritance
             P.setData();
             P.XYZ();
-           
+
 
             // create object form program 4
             Program4 P4 = new Program4();
             P4.setData();
-            
+
             Console.WriteLine("Hello, World!");
 
             int a = 4;
