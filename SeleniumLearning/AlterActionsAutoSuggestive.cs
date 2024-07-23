@@ -66,7 +66,7 @@ public class AlterActionsAutoSuggestive
     }
     
     [TearDown]
-    public void Dispode()
+    public void Dispose()
     {
         if(_closeBrowser)
             _driver.Dispose();

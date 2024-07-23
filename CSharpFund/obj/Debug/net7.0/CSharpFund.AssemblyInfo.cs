@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpFund")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a81d3e617ffa57fad325dbf4fede754d764d63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc293fb5cf8c3e4f2a18d5a8db64d237222fa15")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpFund")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpFund")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

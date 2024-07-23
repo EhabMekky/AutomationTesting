@@ -68,7 +68,7 @@ public class SortWebTables
     }
 
     [TearDown]
-    public void Dispode()
+    public void Dispose()
     {
       if(_closeBrowser)
           _driver.Dispose();
