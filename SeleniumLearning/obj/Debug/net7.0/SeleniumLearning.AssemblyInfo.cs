@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumLearning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a81d3e617ffa57fad325dbf4fede754d764d63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3cb47353960f9eca57cfc642c9321c0c968c4f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumLearning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumLearning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
