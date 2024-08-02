@@ -74,6 +74,14 @@ public class AlterActionsAutoSuggestive
         a.MoveToElement(_driver.FindElement(By.ClassName("dropdown-toggle"))).Perform();
 
         _driver.FindElement(By.PartialLinkText("About")).Click();
+    } 
+    
+    [Test]
+    public void test_Actions_DragDrop()
+    {
+        _driver.Url = "https://demo.automationtesting.in/Static.html";
+        Actions a = new Actions(_driver);
+        a.DragAndDrop(_driver.FindElement(By.Id("mongo")), _driver.FindElement(By.Id("droparea+"))).Perform();
     }
     
     [TearDown]
