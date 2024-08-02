@@ -2,6 +2,7 @@
 using NUnit.Framework.Legacy;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumLearning;
@@ -28,7 +29,7 @@ public class AlterActionsAutoSuggestive
     {
         string name = "Ehab";
         
-        _driver.FindElement(By.Id("name")).SendKeys("Ehab");
+        _driver.FindElement(By.Id("name")).SendKeys(name);
         
         _driver.FindElement(By.Id("confirmbtn")).Click();
 
@@ -63,6 +64,16 @@ public class AlterActionsAutoSuggestive
         
         // Solution 
         TestContext.Progress.WriteLine(_driver.FindElement(By.Id("autocomplete")).GetAttribute("Value"));
+    }
+
+    [Test]
+    public void test_Actions()
+    {
+        _driver.Url = "https://rahulshettyacademy.com/#/INDEX";
+        Actions a = new Actions(_driver);
+        a.MoveToElement(_driver.FindElement(By.ClassName("dropdown-toggle"))).Perform();
+
+        _driver.FindElement(By.PartialLinkText("About")).Click();
     }
     
     [TearDown]
