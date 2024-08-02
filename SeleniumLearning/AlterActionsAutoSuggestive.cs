@@ -4,6 +4,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace SeleniumLearning;
 
@@ -25,7 +26,7 @@ public class AlterActionsAutoSuggestive
     }
 
     [Test]
-    public void test_Alert()
+    public void Test_Alert()
     {
         string name = "Ehab";
         
@@ -43,7 +44,7 @@ public class AlterActionsAutoSuggestive
     }
 
     [Test]
-    public void test_AutoSuggestiveDropDowns()
+    public void Test_AutoSuggestiveDropDowns()
     {
         _driver.FindElement(By.Id("autocomplete")).SendKeys("eg");
         
@@ -67,7 +68,7 @@ public class AlterActionsAutoSuggestive
     }
 
     [Test]
-    public void test_Actions()
+    public void Test_Actions()
     {
         _driver.Url = "https://rahulshettyacademy.com/#/INDEX";
         Actions a = new Actions(_driver);
@@ -77,11 +78,32 @@ public class AlterActionsAutoSuggestive
     } 
     
     [Test]
-    public void test_Actions_DragDrop()
+    public void Test_Actions_DragDrop()
     {
         _driver.Url = "https://demo.automationtesting.in/Static.html";
         Actions a = new Actions(_driver);
-        a.DragAndDrop(_driver.FindElement(By.Id("mongo")), _driver.FindElement(By.Id("droparea+"))).Perform();
+        a.DragAndDrop(_driver.FindElement(By.Id("angular")), _driver.FindElement(By.Id("droparea"))).Perform();
+    }
+
+    [Test]
+    public void Frames()
+    {
+        // Scroll
+        IWebElement frameScroll = _driver.FindElement(By.Id("courses-iframe"));
+        IJavaScriptExecutor js = (IJavaScriptExecutor)_driver;
+        js.ExecuteScript("arguments[0].scrollIntoView(true);", frameScroll);
+        
+        // Wait for the frame element  
+        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));  
+        wait.Until(ExpectedConditions.ElementIsVisible(By.Id("courses-iframe")));  
+        
+        // Name
+        _driver.SwitchTo().Frame("courses-iframe");
+        _driver.FindElement(By.LinkText("All Access Plan")).Click();
+        
+        // ID, Name, Index
+        _driver.SwitchTo().Frame("courses-iframe");
+        _driver.FindElement(By.LinkText("All Access Plan")).Click();
     }
     
     [TearDown]
