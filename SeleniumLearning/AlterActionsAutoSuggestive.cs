@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using NUnit.Framework.Legacy;
+﻿
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -12,7 +11,7 @@ public class AlterActionsAutoSuggestive
 {
     private IWebDriver _driver;
     private readonly bool _closeBrowser = false;
-
+ 
     [SetUp]
     public void StartBrowser()
     {
@@ -93,16 +92,12 @@ public class AlterActionsAutoSuggestive
         IJavaScriptExecutor js = (IJavaScriptExecutor)_driver;
         js.ExecuteScript("arguments[0].scrollIntoView(true);", frameScroll);
         
-        // Wait for the frame element  
-        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));  
-        wait.Until(ExpectedConditions.ElementIsVisible(By.Id("courses-iframe")));  
-        
-        // Name
-        _driver.SwitchTo().Frame("courses-iframe");
-        _driver.FindElement(By.LinkText("All Access Plan")).Click();
+        // Wait for the iframe to be available and switch to it  
+        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));   
+        wait.Until(ExpectedConditions.FrameToBeAvailableAndSwitchToIt(By.Id("courses-iframe")));  
         
         // ID, Name, Index
-        _driver.SwitchTo().Frame("courses-iframe");
+        //_driver.SwitchTo().Frame("courses-iframe");
         _driver.FindElement(By.LinkText("All Access Plan")).Click();
     }
     
