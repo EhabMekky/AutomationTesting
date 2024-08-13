@@ -11,7 +11,7 @@
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
           "Microsoft.NET.Test.Sdk": "17.10.0",
           "NUnit": "4.1.0",
-          "NUnit.Analyzers": "4.2.0",
+          "NUnit.Analyzers": "4.3.0",
           "NUnit3TestAdapter": "4.5.0",
           "Selenium.Support": "4.21.0",
           "Selenium.WebDriver": "4.21.0",
@@ -332,7 +332,7 @@
           }
         }
       },
-      "NUnit.Analyzers/4.2.0": {},
+      "NUnit.Analyzers/4.3.0": {},
       "NUnit3TestAdapter/4.5.0": {},
       "Selenium.Support/4.21.0": {
         "dependencies": {
@@ -472,12 +472,12 @@
       "path": "nunit/4.1.0",
       "hashPath": "nunit.4.1.0.nupkg.sha512"
     },
-    "NUnit.Analyzers/4.2.0": {
+    "NUnit.Analyzers/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4fJojPkzdoa4nB2+p6U+fITvPnVvwWSnsmiJ/Dl30xqiL3oxNbYvfeSLVd91hOmEjoUqSwN3Z7j1aFedjqWbUA==",
-      "path": "nunit.analyzers/4.2.0",
-      "hashPath": "nunit.analyzers.4.2.0.nupkg.sha512"
+      "sha512": "sha512-Ki4p1XrmnYil64HE9VkJSuo6KBr8vg7Mut43atYvItDp3HwIcRY5hi+n5o8GaX1IBCwYLaJgW5ZfZuBVPYXEkg==",
+      "path": "nunit.analyzers/4.3.0",
+      "hashPath": "nunit.analyzers.4.3.0.nupkg.sha512"
     },
     "NUnit3TestAdapter/4.5.0": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1P9qA50QNCjeZTtGilUD8alRQNT5hRTZFlPTXgbR8di7Twwi3lLzg6JxyMDlnzN7b8pPARj/lGNFb+0Wfj4Z4w==",
+  "dgSpecHash": "oDZlMRjYF+MfjKKCEaNpkQFRqNIHUsJeZnpbija8BRGVSi/YfpQ3oBqXRG1oimo27q8zhnaJHVPtb8l1NieGGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\SeleniumLearning\\SeleniumLearning.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
-    "C:\\Users\\ehab.khallaf\\.nuget\\packages\\nunit.analyzers\\4.2.0\\nunit.analyzers.4.2.0.nupkg.sha512",
+    "C:\\Users\\ehab.khallaf\\.nuget\\packages\\nunit.analyzers\\4.3.0\\nunit.analyzers.4.3.0.nupkg.sha512",
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\selenium.support\\4.21.0\\selenium.support.4.21.0.nupkg.sha512",
     "C:\\Users\\ehab.khallaf\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512",

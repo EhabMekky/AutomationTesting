@@ -385,7 +385,7 @@
           "build/NUnit.props": {}
         }
       },
-      "NUnit.Analyzers/4.2.0": {
+      "NUnit.Analyzers/4.3.0": {
         "type": "package"
       },
       "NUnit3TestAdapter/4.5.0": {
@@ -1025,10 +1025,10 @@
         "nunit.nuspec"
       ]
     },
-    "NUnit.Analyzers/4.2.0": {
-      "sha512": "4fJojPkzdoa4nB2+p6U+fITvPnVvwWSnsmiJ/Dl30xqiL3oxNbYvfeSLVd91hOmEjoUqSwN3Z7j1aFedjqWbUA==",
+    "NUnit.Analyzers/4.3.0": {
+      "sha512": "Ki4p1XrmnYil64HE9VkJSuo6KBr8vg7Mut43atYvItDp3HwIcRY5hi+n5o8GaX1IBCwYLaJgW5ZfZuBVPYXEkg==",
       "type": "package",
-      "path": "nunit.analyzers/4.2.0",
+      "path": "nunit.analyzers/4.3.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1037,7 +1037,7 @@
         "docs/README.md",
         "images/nunit_256.png",
         "license.txt",
-        "nunit.analyzers.4.2.0.nupkg.sha512",
+        "nunit.analyzers.4.3.0.nupkg.sha512",
         "nunit.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -1306,7 +1306,7 @@
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 17.10.0",
       "NUnit >= 4.1.0",
-      "NUnit.Analyzers >= 4.2.0",
+      "NUnit.Analyzers >= 4.3.0",
       "NUnit3TestAdapter >= 4.5.0",
       "Selenium.Support >= 4.21.0",
       "Selenium.WebDriver >= 4.21.0",
@@ -1376,7 +1376,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[4.2.0, )"
+            "version": "[4.3.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
