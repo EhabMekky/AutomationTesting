@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CSharpSelFramework\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\UnitTest1.cs",
+              "RelativeToolTip": "CSharpSelFramework\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:44:12.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

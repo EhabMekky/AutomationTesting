@@ -14,7 +14,7 @@ C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.AssemblyInfo.cs
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.csproj.CoreCompileInputs.cache
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.sourcelink.json
-C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.csproj.CopyComplete
+C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.csproj.Up2Date
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\refint\CSharpFund.dll
 C:\Users\ehab.khallaf\source\repos\AutomationTesting\CSharpFund\obj\Debug\net7.0\CSharpFund.pdb
