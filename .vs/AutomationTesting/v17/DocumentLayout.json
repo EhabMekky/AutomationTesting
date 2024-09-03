@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07F70448-4434-47BE-95DA-E29A24005BA7}|SeleniumLearning\\SeleniumLearning.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\seleniumlearning\\e2etest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F70448-4434-47BE-95DA-E29A24005BA7}|SeleniumLearning\\SeleniumLearning.csproj|solutionrelative:seleniumlearning\\e2etest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\utilties\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\utilties\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +26,63 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\Utilties\\Base.cs",
+              "RelativeDocumentMoniker": "CSharpSelFramework\\Utilties\\Base.cs",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\Utilties\\Base.cs*",
+              "RelativeToolTip": "CSharpSelFramework\\Utilties\\Base.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwCAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:06:54.343Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\appsettings.json",
+              "RelativeDocumentMoniker": "CSharpSelFramework\\appsettings.json",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\appsettings.json",
+              "RelativeToolTip": "CSharpSelFramework\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T10:44:15.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "E2ETest.cs",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\SeleniumLearning\\E2ETest.cs",
+              "RelativeDocumentMoniker": "SeleniumLearning\\E2ETest.cs",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\SeleniumLearning\\E2ETest.cs*",
+              "RelativeToolTip": "SeleniumLearning\\E2ETest.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:26:52.162Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "CSharpSelFramework\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\UnitTest1.cs",
-              "RelativeToolTip": "CSharpSelFramework\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:44:12.994Z",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\App.config",
+              "RelativeDocumentMoniker": "CSharpSelFramework\\App.config",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\App.config",
+              "RelativeToolTip": "CSharpSelFramework\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-02T14:04:10.795Z",
               "EditorCaption": ""
             }
           ]

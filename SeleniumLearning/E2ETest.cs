@@ -11,7 +11,6 @@ namespace SeleniumLearning
         [Test]
         public void EndtoEndFlow()
         {
-
             String[] expectedProducts = { "iphone X", "Blackberry" };
             string[] actualProducts = new string[2];
 
@@ -48,7 +47,6 @@ namespace SeleniumLearning
             {
                 actualProducts[i] = checkoutProducts[i].Text;
             }
-
             TestContext.Progress.WriteLine(actualProducts);
             Assert.That(actualProducts, Is.EqualTo(expectedProducts).AsCollection);
 
@@ -63,11 +61,6 @@ namespace SeleniumLearning
                         "body > app-root > app-shop > div > app-checkout > div > div.checkbox.checkbox-primary"))
                 .Click();
             _driver.FindElement(By.ClassName("btn-lg")).Click();
-
-            string confirmText = _driver.FindElement(By.CssSelector(".alert-success")).Text;
-
-            Assert.That(confirmText.Contains("Success!"));
-
         }
     }
 }

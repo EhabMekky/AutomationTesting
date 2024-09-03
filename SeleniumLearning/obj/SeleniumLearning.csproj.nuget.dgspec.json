@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.11.0, )"
@@ -80,6 +84,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.23.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
