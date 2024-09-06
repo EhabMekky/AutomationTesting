@@ -5,11 +5,11 @@ namespace CSharpSelFramework.PageObjects;
 
 public class LoginPage
 {
-    private IWebDriver driver;
+    private IWebDriver _driver;
     // Constructor
     public LoginPage(IWebDriver driver)
     {
-        this.driver = driver;
+        this._driver = driver;
         PageFactory.InitElements(driver, this);
     }
 
@@ -26,12 +26,14 @@ public class LoginPage
     [FindsBy(How = How.Id, Using = "signInBtn")]
     private IWebElement signInBtn;
 
-    public void validLogin(string user, string pass)
+    public ProductsPage validLogin(string user, string pass)
     {
         username.SendKeys(user);
         password.SendKeys(pass);
         terms.Click();
         signInBtn.Click();
+
+        return new ProductsPage(_driver);
     }
 
 }

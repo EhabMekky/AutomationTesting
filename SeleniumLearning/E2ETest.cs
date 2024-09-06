@@ -17,51 +17,41 @@ namespace SeleniumLearning
             string[] actualProducts = new string[2];
 
             LoginPage loginPage = new LoginPage(getDriver());
-            loginPage.validLogin("rahulshettyacademy", "learning");
-
+            ProductsPage productsPage = loginPage.validLogin("rahulshettyacademy", "learning");
 
             // Explicit Wait Implementation
-            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(8));
-            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.PartialLinkText("Checkout")));
+            productsPage.WaitToCheckout();
 
-            IList<IWebElement> products = _driver.FindElements(By.TagName("app-card"));
+            IList<IWebElement> products = productsPage.GetCards();
 
             foreach (IWebElement product in products)
             {
                 if (expectedProducts.Contains(product
-                        .FindElement(
-                            By.CssSelector(".card-title a")).Text))
+                        .FindElement(productsPage.GetCardTitle()).Text))
                 {
-                    product.FindElement(By.CssSelector(".card-footer button")).Click();
+                    product.FindElement(productsPage.AddToCartButton()).Click();
                     // click on cart
                 }
-
-                TestContext.Progress.WriteLine(product
-                    .FindElement(By.CssSelector(".card-title a")).Text);
             }
 
-            _driver.FindElement(By.PartialLinkText("Checkout")).Click();
+            CheckoutPage checkoutPage = productsPage.GetCheckout();
 
-            IList<IWebElement> checkoutProducts = _driver.FindElements(By.CssSelector("h4 a"));
+
+            IList<IWebElement> checkoutProducts = checkoutPage.GetCheckoutCards();
 
             for (int i = 0; i < checkoutProducts.Count; i++)
             {
                 actualProducts[i] = checkoutProducts[i].Text;
             }
-            TestContext.Progress.WriteLine(actualProducts);
             Assert.That(actualProducts, Is.EqualTo(expectedProducts).AsCollection);
 
-            _driver.FindElement(By.ClassName("btn-success")).Click();
+            checkoutPage.Checkout();
 
-            // Explicit Wait Implementation
-            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Id("country")));
-            _driver.FindElement(By.Id("country")).SendKeys("Egypt");
+           //_driver.FindElement(By.Id("country")).SendKeys("Egypt");
+           PurchasePage purchasePage = checkoutPage.Checkout();
+           purchasePage.GetCountry("Egypt");
 
-            _driver.FindElement(
-                    By.CssSelector(
-                        "body > app-root > app-shop > div > app-checkout > div > div.checkbox.checkbox-primary"))
-                .Click();
-            _driver.FindElement(By.ClassName("btn-lg")).Click();
+           purchasePage.getCheckBox();
 
             Assembly assem = typeof(Base).Assembly;
             Console.WriteLine("Assembly name: {0}", assem.FullName);
