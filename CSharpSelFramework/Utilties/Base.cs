@@ -3,6 +3,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using System.Configuration;
+using System.Reflection;
 
 namespace CSharpSelFramework.Utilties
 {
@@ -13,27 +14,36 @@ namespace CSharpSelFramework.Utilties
         [SetUp]
         public void StartBrowser()
         {
-            // Configure Browser
-            string? browserName = GetBrowserNameFromConfig();
+            string browserName = GetBrowserNameFromConfig();
             InitBrowser(browserName);
-
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-
-            _driver.Manage().Window.Maximize();
-            _driver.Url = "https://rahulshettyacademy.com/loginpagePractise/";
-        }
-        private string? GetBrowserNameFromConfig()
-        {
-            string? browserName = ConfigurationManager.AppSettings.Get("browserName");
-            if (string.IsNullOrEmpty(browserName))
+            if (_driver != null)
             {
-                throw new ConfigurationErrorsException("Browser name is not specified in the configuration file.");
-            }
+                _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
 
-            return browserName;
+                _driver.Manage().Window.Maximize();
+                _driver.Url = "https://rahulshettyacademy.com/loginpagePractise/";
+
+
+            }
         }
 
-        protected void InitBrowser(string? browserName)
+        private static string? GetBrowserNameFromConfig()
+        {
+            string? name = ConfigurationManager.AppSettings["browser"];
+
+            // if (string.IsNullOrEmpty(name))
+            // {
+            //     name = "Chrome";
+            // }
+
+            return name;
+        }
+
+        public IWebDriver getDriver()
+        {
+            return _driver;
+        }
+        private void InitBrowser(string browserName)
         {
             switch (browserName)
             {

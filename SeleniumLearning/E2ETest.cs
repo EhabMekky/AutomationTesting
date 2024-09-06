@@ -1,4 +1,6 @@
-﻿using CSharpSelFramework.Utilties;
+﻿using System.Reflection;
+using CSharpSelFramework.PageObjects;
+using CSharpSelFramework.Utilties;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
@@ -14,10 +16,9 @@ namespace SeleniumLearning
             String[] expectedProducts = { "iphone X", "Blackberry" };
             string[] actualProducts = new string[2];
 
-            _driver.FindElement(By.Id("username")).SendKeys("rahulshettyacademy");
-            _driver.FindElement(By.Name("password")).SendKeys("learning");
-            _driver.FindElement(By.Id("terms")).Click();
-            _driver.FindElement(By.Id("signInBtn")).Click();
+            LoginPage loginPage = new LoginPage(getDriver());
+            loginPage.validLogin("rahulshettyacademy", "learning");
+
 
             // Explicit Wait Implementation
             WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(8));
@@ -61,6 +62,9 @@ namespace SeleniumLearning
                         "body > app-root > app-shop > div > app-checkout > div > div.checkbox.checkbox-primary"))
                 .Click();
             _driver.FindElement(By.ClassName("btn-lg")).Click();
+
+            Assembly assem = typeof(Base).Assembly;
+            Console.WriteLine("Assembly name: {0}", assem.FullName);
         }
     }
 }
