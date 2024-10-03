@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.InteropServices.JavaScript;
 using CSharpSelFramework.PageObjects;
 using CSharpSelFramework.Utilties;
 using OpenQA.Selenium;
@@ -8,16 +9,17 @@ using SeleniumExtras.WaitHelpers;
 
 namespace SeleniumLearning
 {
-    public class E2ETest : Base 
+    public class E2ETest : Base
     {
-        [Test]
-        public void EndtoEndFlow()
+
+        [Test, TestCaseSource(nameof(AddTestDataConfig))]
+        public void EndtoEndFlow(String username, String password, String[] expectedProducts)
         {
-            String[] expectedProducts = { "iphone X", "Blackberry" };
+            //String[] expectedProducts = { "iphone X", "Blackberry" };
             string[] actualProducts = new string[2];
 
             LoginPage loginPage = new LoginPage(getDriver());
-            ProductsPage productsPage = loginPage.validLogin("rahulshettyacademy", "learning");
+            ProductsPage productsPage = loginPage.validLogin(username, password);
 
             // Explicit Wait Implementation
             productsPage.WaitToCheckout();
@@ -55,6 +57,11 @@ namespace SeleniumLearning
 
             Assembly assem = typeof(Base).Assembly;
             Console.WriteLine("Assembly name: {0}", assem.FullName);
+        }
+        public static IEnumerable<TestCaseData> AddTestDataConfig()
+        {
+            yield return new TestCaseData(getDataParser().ExtractData("username"), getDataParser().ExtractData("password"), getDataParser().ExtractDataArray("products"));
+            //yield return new TestCaseData(getDataParser().ExtractData("username_wrong"), getDataParser().ExtractData("password_wrong")); // this test will fail
         }
     }
 }

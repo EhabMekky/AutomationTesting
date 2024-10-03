@@ -26,7 +26,7 @@ public class ProductsPage
 
     public void WaitToCheckout()
     {
-        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(8));
+        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
         wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.PartialLinkText("Checkout")));
     }
 

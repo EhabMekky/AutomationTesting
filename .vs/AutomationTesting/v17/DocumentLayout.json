@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{07F70448-4434-47BE-95DA-E29A24005BA7}|SeleniumLearning\\SeleniumLearning.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\seleniumlearning\\e2etest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07F70448-4434-47BE-95DA-E29A24005BA7}|SeleniumLearning\\SeleniumLearning.csproj|solutionrelative:seleniumlearning\\e2etest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|c:\\users\\ehab.khallaf\\source\\repos\\automationtesting\\csharpselframework\\pageobjects\\productspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C1F7D0-51BA-4F21-8EA4-7F7B512E6187}|CSharpSelFramework\\CSharpSelFramework.csproj|solutionrelative:csharpselframework\\pageobjects\\productspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,25 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsPage.cs",
+              "DocumentMoniker": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\PageObjects\\ProductsPage.cs",
+              "RelativeDocumentMoniker": "CSharpSelFramework\\PageObjects\\ProductsPage.cs",
+              "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\PageObjects\\ProductsPage.cs",
+              "RelativeToolTip": "CSharpSelFramework\\PageObjects\\ProductsPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:21:49.577Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +49,7 @@
               "RelativeDocumentMoniker": "CSharpSelFramework\\Utilties\\Base.cs",
               "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\CSharpSelFramework\\Utilties\\Base.cs",
               "RelativeToolTip": "CSharpSelFramework\\Utilties\\Base.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T14:09:35.429Z",
               "EditorCaption": ""
@@ -41,14 +62,10 @@
               "RelativeDocumentMoniker": "SeleniumLearning\\E2ETest.cs",
               "ToolTip": "C:\\Users\\ehab.khallaf\\source\\repos\\AutomationTesting\\SeleniumLearning\\E2ETest.cs",
               "RelativeToolTip": "SeleniumLearning\\E2ETest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T14:26:52.162Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

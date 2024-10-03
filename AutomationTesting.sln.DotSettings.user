@@ -8,22 +8,15 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003APageFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppData_003FLocal_003FJetBrains_003FShared_003FvAny_003FDecompilerCache_003Fdecompiler_003F3cf1ba4304d34bfa9e3c5c6abd333d515e00_003F3b_003Fea9afe05_003FPageFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ASimpleWorkItem_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppData_003FLocal_003FJetBrains_003FShared_003FvAny_003FSourcesCache_003Fcfd42c9cad8cc5d48effcc51ca25015e7906d5f10495cacc32090b4fcfbd199_003FSimpleWorkItem_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\ehab.khallaf\AppData\Local\Temp\JetBrains\Rider\vAny\CoverageData\_AutomationTesting.-695454984\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7d345134_002D6dc6_002D4ef6_002D9535_002D8dfa8c08c116/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="E2ETest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d94ed239_002D2688_002D4c2f_002Dbb39_002D1f2c00ac93a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EndtoEndFlow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::07F70448-4434-47BE-95DA-E29A24005BA7::net8.0::SeleniumLearning.E2ETest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c07fada9_002Def28_002D443b_002D8a48_002D43ab9e29d407/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EndtoEndFlow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::07F70448-4434-47BE-95DA-E29A24005BA7::net8.0::SeleniumLearning.E2ETest.EndtoEndFlow&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f0376071_002D4772_002D4ee8_002Da290_002D703108693842/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EndtoEndFlow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::07F70448-4434-47BE-95DA-E29A24005BA7::net8.0::SeleniumLearning.E2ETest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
 	
 	
 	

@@ -4,6 +4,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using System.Configuration;
 using System.Reflection;
+using CSharpSelFramework.Tests;
 
 namespace CSharpSelFramework.Utilties
 {
@@ -18,7 +19,7 @@ namespace CSharpSelFramework.Utilties
             InitBrowser(browserName);
             if (_driver != null)
             {
-                _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+                _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
 
                 _driver.Manage().Window.Maximize();
                 _driver.Url = "https://rahulshettyacademy.com/loginpagePractise/";
@@ -30,12 +31,6 @@ namespace CSharpSelFramework.Utilties
         private static string? GetBrowserNameFromConfig()
         {
             string? name = ConfigurationManager.AppSettings["browser"];
-
-            // if (string.IsNullOrEmpty(name))
-            // {
-            //     name = "Chrome";
-            // }
-
             return name;
         }
 
@@ -64,15 +59,16 @@ namespace CSharpSelFramework.Utilties
             }
         }
 
+        protected static JsonReader getDataParser()
+        {
+            return new JsonReader();
+        }
+
         [TearDown]
         public void CleanUp()
         {
-            if (_driver != null)
-            {
-                _driver.Quit();
-                _driver.Dispose();
-                _driver = null;
-            }
+            _driver?.Quit();
+            _driver?.Dispose();
         }
     }
 }

@@ -35,5 +35,8 @@
   
   <ItemGroup>
     <None Remove="appsetting.json" />
+    <None Update="Utilties\TestData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
